@@ -1,0 +1,47 @@
+.UserList-header {
+    height: 44px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.UserList-header h1 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+.UserList-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+.UserList-navbar__profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.UserList-navbar__profile picture {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+.UserList-navbar__profile picture img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 100%;
+}
+.UserList-navbar__profile p {
+    font-size: 14px;
+}
+.UserList-navbar__profile span {
+    display: flex;
+}
+.UserList-navbar__wallet span svg {
+    width: 20px;
+    fill: #fff;
+    margin-left: 8px;
+}
